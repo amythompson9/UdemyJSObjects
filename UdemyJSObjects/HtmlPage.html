@@ -6,6 +6,87 @@
     <script src="JavaScript.js"></script>
 </head>
 <body>
+    <!--
+        Suppose I wanted to model a single person
+        name
+        age
+        city
 
+        perfect case for OBJECT
+
+        always a key/value pair
+        objects don't have any built-in order
+
+        var person = {
+        name: "Cindy",
+        age: 32,
+        city: "Missoula"
+
+        }-->
+    <!-- Retrieving Data
+
+        you have two choices, bracket and dot notation
+
+        var person = {
+            name: "Cindy",
+            age: 32,
+            city: "Missoula"
+        };
+
+        bracket notation, similar to arrays:
+        console.log(person["name"]);
+
+        dot notation
+        console.log(person.name);
+
+        you cannot use dot notation if the propety starts with a number
+        object.1blah is invalid
+        object["1blah"] is valid
+
+        you can lookup using a variable with bracket notation
+        var str = "name";
+        someobject.str doesn't look for name
+        someobject[str] finds the name
+
+        you cannot use dot notation for names with sapces
+        -->
+    <!-- updating data
+
+        acces a property and reassign it
+
+        to update age
+        person["age"] += 1
+        to update city
+        person.city = "London";-->
+    
+    
+    <!-- Creating Objects
+
+        like arrays, there are a few methods of initializing
+        objects
+
+        make an empty object and then add to it
+        var person = {
+            person.name: "Cindy",
+            person.age: 32,
+            person.city: "Missoula"
+        };
+
+        all at once
+        var person = {
+            person.name: "Cindy",
+            person.age: 32,
+            person.city: "Missoula"
+        };
+
+        another way of initializing an object
+        var person = new Object();
+        person.name: "Cindy",
+        person.age: 32,
+        person.city: "Missoula"
+
+        -->
+
+    <!-- objects can hold all sorts of data -->
 </body>
 </html>
